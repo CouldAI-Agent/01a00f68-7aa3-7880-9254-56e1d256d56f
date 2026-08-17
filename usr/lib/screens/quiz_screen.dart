@@ -64,7 +64,7 @@ class _QuizScreenState extends State<QuizScreen> {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text(widget.activity.name),
+        title: Text(widget.activity.title),
       ),
       body: SafeArea(
         child: Padding(
